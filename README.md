@@ -19,7 +19,7 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tuj
 1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
 
    ```shell
-   git clone https://github.com/Hanifanta/Project-data-analytics.git
+   git clone https://github.com/Hanifanta/Project-data-analytics.git](https://github.com/raihandzakyap/Submission-Analisis-Data.git
    ```
 
 2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
@@ -33,10 +33,10 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tuj
 1. Masuk ke direktori proyek (Local):
 
     ```shell
-    cd Project-data-analytics/streamlit/
-    streamlit run main.py
+    cd Submission Analisis Data - Raihan\Dashboard
+    streamlit run Dashboard.py
     ```
-    Atau bisa dengan kunjungi website ini [Project Data Analytics](https://data-analytics-project.streamlit.app/)
+    Atau bisa dengan kunjungi website ini (http://192.168.1.11:8501)
 
 ## Kontribusi
 Anda dapat berkontribusi pada proyek ini dengan melakukan pull request. Pastikan untuk menjelaskan perubahan yang Anda usulkan secara jelas dan menyeluruh.
