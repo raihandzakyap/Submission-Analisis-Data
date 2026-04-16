@@ -1,44 +1,58 @@
-# Submission-Analisis-Data
-
-## Project Data Analytics
-
-Repository ini berisi proyek data analytics yang saya kerjakan. Deployment in **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo"></img>
+# 📊 Dashboard Analisis Data E-Commerce
 
 ## Deskripsi
+Dashboard ini digunakan untuk menganalisis data e-commerce berdasarkan beberapa pertanyaan bisnis, yaitu:
+- Kategori produk paling banyak dan paling sedikit terjual
+- Metode pembayaran yang paling sering digunakan
+- Tren penjualan pada tahun 2018
+- Tingkat kepuasan pelanggan
 
-Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tujuan akhirnya adalah untuk menghasilkan wawasan dan informasi yang berguna dari data yang dianalisis.
+---
 
-## Struktur Direktori
+## Struktur Folder
 
-- **/dataset**: Direktori ini berisi data yang digunakan dalam proyek, dalam format .csv .
-- **/streamlit**: Direktori ini berisi main.py yang digunakan untuk membuat dashboard hasil analisis data.
-- **Proyek_Analisis_Data.ipynb**: File ini yang digunakan untuk melakukan analisis data.
+Pastikan struktur folder sebagai berikut:
 
-## Instalasi
 
-1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
+Submission Analisis Data/
 
-   ```shell
-   git clone https://github.com/raihandzakyap/Submission-Analisis-Data.git
-   ```
+│
 
-2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
+├── Data/
 
-    ```shell
-    pip install streamlit
-    pip install -r requirements.txt
-    ```
+│ └── all_data.csv
 
-## Penggunaan
-1. Masuk ke direktori proyek (Local):
+│
 
-    ```shell
-    cd Submission Analisis Data - Raihan\Dashboard
-    streamlit run Dashboard.py
-    ```
-    Atau bisa dengan kunjungi website ini (http://192.168.1.11:8501)
+├── Dashboard/
 
-## Kontribusi
-Anda dapat berkontribusi pada proyek ini dengan melakukan pull request. Pastikan untuk menjelaskan perubahan yang Anda usulkan secara jelas dan menyeluruh.
+│ └── Dashboard.py
 
-   
+
+---
+
+## Cara Menjalankan Dashboard
+
+1. Buka terminal atau command prompt
+
+2. Masuk ke folder Dashboard:
+
+cd Dashboard
+
+
+3. Jalankan Streamlit:
+
+streamlit run Dashboard.py
+
+
+4. Dashboard akan terbuka otomatis di browser
+
+---
+
+## Catatan
+
+- Pastikan file `all_data.csv` berada di dalam folder `Data`
+- Pastikan library berikut sudah terinstall:
+  - pandas
+  - matplotlib
+  - streamlit
