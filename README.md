@@ -1,58 +1,72 @@
-# 📊 Dashboard Analisis Data E-Commerce
+# Dashboard Analisis Data E-Commerce
 
-## Deskripsi
-Dashboard ini digunakan untuk menganalisis data e-commerce berdasarkan beberapa pertanyaan bisnis, yaitu:
-- Kategori produk paling banyak dan paling sedikit terjual
-- Metode pembayaran yang paling sering digunakan
-- Tren penjualan pada tahun 2018
-- Tingkat kepuasan pelanggan
+## Setup Environment
+
+1. Pastikan Python sudah terinstall (disarankan Python 3.10 ke atas)
+
+2. Buat virtual environment (opsional tapi disarankan)
+```
+python -m venv venv
+```
+
+3. Aktifkan virtual environment
+
+Windows:
+```
+venv\Scripts\activate
+```
+
+Mac/Linux:
+```
+source venv/bin/activate
+```
+
+4. Install dependensi
+```
+pip install -r requirements.txt
+```
+
+---
+
+## Menjalankan Dashboard
+
+1. Masuk ke folder Dashboard
+```
+cd Dashboard
+```
+
+2. Jalankan Streamlit
+```
+streamlit run Dashboard.py
+```
+
+3. Buka browser jika tidak terbuka otomatis:
+```
+http://localhost:8501
+```
 
 ---
 
 ## Struktur Folder
 
-Pastikan struktur folder sebagai berikut:
-
-
-Submission Analisis Data/
-
+```
+Submission Analisis Data - Raihan/
 │
-
-├── Data/
-
-│ └── all_data.csv
-
-│
-
 ├── Dashboard/
-
-│ └── Dashboard.py
-
-
----
-
-## Cara Menjalankan Dashboard
-
-1. Buka terminal atau command prompt
-
-2. Masuk ke folder Dashboard:
-
-cd Dashboard
-
-
-3. Jalankan Streamlit:
-
-streamlit run Dashboard.py
-
-
-4. Dashboard akan terbuka otomatis di browser
+│   └── Dashboard.py
+│
+├── Data/
+│   ├── customers_dataset.csv
+│   ├── orders_dataset.csv
+│   ├── order_items_dataset.csv
+│   ├── products_dataset.csv
+│   ├── order_payments_dataset.csv
+│   ├── order_reviews_dataset.csv
+```
 
 ---
 
 ## Catatan
 
-- Pastikan file `all_data.csv` berada di dalam folder `Data`
-- Pastikan library berikut sudah terinstall:
-  - pandas
-  - matplotlib
-  - streamlit
+- Pastikan folder `Data` berada di luar folder `Dashboard`
+- Pastikan semua file dataset tersedia sebelum menjalankan dashboard
